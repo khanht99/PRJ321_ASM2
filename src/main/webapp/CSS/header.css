@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header .top {
+	background-color: rgb(34,47,60);
+	width: 100%;
+	height: 130px;
+	display: flex;
+}
+
+#header .logo {
+	width: 30%;
+    padding: 35px 50px;
+    color: white;
+    box-sizing: border-box;
+}
+
+#header .searchbox {
+	width: 70%;
+	    width: 70%;
+    box-sizing: border-box;
+    padding: 49px 0px;
+}
+
+#header .searchbox input {
+	    width: 70%;
+    height: 30px;
+    padding-left: 20px;
+    border: none;
+	position: relative;
+    bottom: 11px;
+    left: 4px;
+}
+
+#header .searchbox button {
+	border: none;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+}
+
+#header .searchbox button:hover {
+	cursor: pointer;
+}
+
+#header .navbar {
+	background-color: rgb(41,56,71);
+	height: 40px;
+	width: 100%;
+	padding-left: 30%;
+	color: white;
+	font-size: 24px;
+	line-height: 40px;
+	position : relative;
+}
+
+
+
+#header .navbar ul li,
+#header .navbar ul,
+#header .navbar .left,
+#header .navbar .right {
+	display: inline !important;
+}
+
+#header .navbar ul li a {
+	text-decoration: none;
+    color: white;
+}
+
+
+#header .navbar ul li a:hover {
+	color: orange;
+	cursor: pointer;
+}
+
+#header .navbar .right{
+	position: relative;
+    right: -634px;
+}
+

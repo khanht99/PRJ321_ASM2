@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+#login {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: 100vh;
+}
+
+#login .left,
+#login .right {
+	width: 50%;
+	text-align: center;
+	padding: 31vh 0px;
+	box-sizing: border-box;
+}
+
+#login .left button {
+	background-color: rgb(252,77,54);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#login .left input {
+	display: inline;
+    height: 40px;
+    width: 25vw;
+    margin-bottom: 20px;
+    padding-left: 16px;
+    background-color: #EEEEEE;
+    border: 0.5px solid #eeeeee;
+    border-radius: 5px;
+}
+
+#login .left .errorMsg {
+	color: red;
+}
+
+#login .left button:hover {
+	background-color: orange;
+	cursor: pointer;
+}
+
+#login h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#login .right {
+	background-color: rgb(15,17,48);
+	color: white;
+}
